@@ -13,21 +13,21 @@
         <div class="row "style="height: 100vh">
             <div class="col-8 p-5">
                 <h4 class="display-4">List of books</h4><hr>
-                <table class="table table-striped table-borders table-hover table-dark">
-                    <thead>
-                        <tr>
-                            <th>S/N</th>
-                            <th>Title</th>
-                            <th>Author</th>
-                            <th>Date Bought</th>
-                            <th>Price</th>
-                            <th>Action</th>
-                        </tr>
-                    </thead>
-                    <tbody id="bookBox">
-
-                    </tbody>
-                </table>
+                <div style="height: 60vh; overflow:auto; ">
+                    <table class="table table-striped table-borders table-hover table-dark">
+                        <thead style="position: sticky; top: 0">
+                            <tr style="position: sticky; top: 0">
+                                <th style="position: sticky; top: 0">S/N</th>
+                                <th style="position: sticky; top: 0">Title</th>
+                                <th style="position: sticky; top: 0">Author</th>
+                                <th style="position: sticky; top: 0">Date Bought</th>
+                                <th style="position: sticky; top: 0">Price</th>
+                                <th style="position: sticky; top: 0">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="bookBox"></tbody>
+                    </table>
+                </div>
             </div>
             <div class="col-4 bg-primary p-4">
                 <h4 class="text-white"> Enter new book </h4>
